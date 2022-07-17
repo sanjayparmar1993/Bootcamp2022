@@ -2,6 +2,12 @@
 #include<conio.h>
 int main()
 {
-    printf("\"MySirG\"");
+    int a=22,b=33,c;
+    c=a;
+    a=b;
+    b=c;
+    printf("a=%d,b=%d",a,b);
+    getch();
     return 0;
+
 }

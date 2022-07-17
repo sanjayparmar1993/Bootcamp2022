@@ -2,10 +2,11 @@
 #include<conio.h>
 int main()
 {
-int day,month,year;
-  printf("enter a Date:\n");
-  scanf("%d/%d/%d",&day,&month,&year);
-  printf("day-%d,month-%d,year-%d",day,month,year);
-  getch();
-  return 0;
+    int num,a;
+    printf("Enter a number:\n");
+    scanf("%d",&num);
+    a=num/10*10;
+    printf("%d",a);
+    getch();
+    return 0;
 }

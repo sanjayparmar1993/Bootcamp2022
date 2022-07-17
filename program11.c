@@ -2,10 +2,11 @@
 #include<conio.h>
 int main()
 {
-  int hour,minute;
-  printf("enter a time:\n");
-  scanf("%d:%d/",&hour,&minute);
-  printf("%d Hour and %d Minute",hour,minute);
-  getch();
-  return 0;
+    int num,digit,a;
+    printf("Enter a number and digit:\n");
+    scanf("%d%d",&num,&digit);
+    a=num*10+digit;
+    printf("%d",a);
+    getch();
+    return 0;
 }

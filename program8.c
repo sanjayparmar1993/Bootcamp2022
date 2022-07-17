@@ -2,7 +2,13 @@
 #include<conio.h>
 int main()
 {
-  printf("\\n");
-  getch();
-  return 0;
+int num;
+printf("Enter a number:\n");
+scanf("%d",&num);
+if(num&1)
+printf("Number is odd");
+else
+printf("Number is even");
+getch();
+return 0;
 }
