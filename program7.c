@@ -1,12 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
+
 int main()
 {
-int num;
-printf("Enter a number:\n");
-scanf("%d",&num);
-num=num&1;
-printf("Lsb is %d",num);
-getch();
-return 0;
+  int a,b,c,d;
+  printf("Enter a x^2, x and constant number:\n");
+  scanf("%d%d%d",&a,&b,&c);
+  d=b*b-4*a*c;
+  if(d<0)
+  printf("Roots are imaginary");
+  if(d==0)
+  printf("roots are real and equal");
+  if(d>0)
+  printf("roots are real and distinct");
+  getch();
+  return 0;
 }

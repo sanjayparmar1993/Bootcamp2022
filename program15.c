@@ -7,9 +7,14 @@ int main()
   printf("Enter a number:\n");
   scanf("%d",&num);
   if(num>0)
-  printf("Number is positive");
+  printf("%d is a positive number",num);
   else
-  printf("Number is non-positive");
+  {
+    if(num<0)
+   printf("%d is a negative number",num);
+    else
+   printf("number is zero");
+  }
   getch();
   return 0;
 }

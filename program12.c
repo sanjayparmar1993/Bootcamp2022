@@ -1,13 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
+
 int main()
 {
-int inr;
-float usd;
-printf("Enter a indian rupees:\n");
-scanf("%d",&inr);
-usd=inr/76.23;
-printf("%.2f Usd",usd);
-getch();
-return 0;
+    char a;
+    printf("Enter a character:\n");
+    scanf("%c",&a);
+if(a>='A'&&a<='Z')
+    printf("Alphabet is uppercase");
+else
+    printf("Alphabet is lowercase");
+    getch();
+    return 0;
 }

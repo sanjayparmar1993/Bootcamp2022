@@ -1,16 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
+
 int main()
 {
-    int x,a,b,c;
-    printf("Enter a three digit numbers:\n");
-    scanf("%d",&x);
-    a=x/10;
-    b=x%10;
-    c=a%10;
-    a=a/10;
-    printf("sum of three digit is %d",a+b+c);
-    getch();
-    return 0;
-
-}
+  int num;
+  printf("Enter a number:\n");
+  scanf("%d",&num);
+  if(num>99 && num<1000)
+  printf("%d is a three digit number",num);
+  else
+  printf("%d is not three digit number",num);
+  getch();
+  return 0;
+  }

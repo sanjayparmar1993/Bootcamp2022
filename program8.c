@@ -1,14 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
+
 int main()
 {
-int num;
-printf("Enter a number:\n");
-scanf("%d",&num);
-if(num&1)
-printf("Number is odd");
-else
-printf("Number is even");
-getch();
-return 0;
+    int year;
+    printf("Enter a year:\n");
+    scanf("%d",&year);
+    if(year%4==0)
+    printf("%d is a leap year",year);
+    else
+    printf("%d is not a leap year",year);
+    getch();
+    return 0;
 }
