@@ -4,9 +4,9 @@
 int main()
 {
   int i;
-  for(i=10;i>=1;i--)
+  for(i=1;i<=5;i++)
   {
-  printf("%d ",i);
+  printf("MySirG\n");
   }
 getch();
 return 0;

@@ -3,13 +3,11 @@
 
 int main()
 {
-  int num;
-  printf("Enter a number:\n");
-  scanf("%d",&num);
-  if(num&1)
-  printf("%d is a odd number",num);
-  else
-  printf("%d is a even number",num);
-  getch();
-  return 0;
+  int i;
+  for(i=1;i<=10;i++)
+  {
+  printf("%d ",2*i-1);
   }
+getch();
+return 0;
+}

@@ -3,23 +3,11 @@
 
 int main()
 {
-    int a,b,c;
-    printf("Enter a three number:\n");
-    scanf("%d%d%d",&a,&b,&c);
-    if(a>b)
-    {
-      if(a>c)
-          printf("%d is a greater number",a);
-      else
-          printf("%d is a greater number",c);
-    }
-   else
-   {
-       if(b>c)
-          printf("%d is a greater number",b);
-       else
-          printf("%d is a greater number",c);
-   }
-       getch();
-       return 0;
+  int i;
+  for(i=1;i<=10;i++)
+  {
+  printf("%d ",i*i*i);
+  }
+getch();
+return 0;
 }

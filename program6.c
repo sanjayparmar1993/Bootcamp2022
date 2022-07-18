@@ -3,13 +3,11 @@
 
 int main()
 {
-  int num1,num2;
-  printf("Enter a number:\n");
-  scanf("%d%d",&num1,&num2);
-  if(num1> num2)
-  printf("greater number is %d",num1);
-  else
-  printf("greater number is %d",num2);
-  getch();
-  return 0;
+  int i;
+  for(i=1;i<=10;i++)
+  {
+  printf("%d ",2*i);
   }
+getch();
+return 0;
+}
