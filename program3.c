@@ -3,10 +3,13 @@
 
 int main()
 {
-  int i;
-  for(i=10;i>=1;i--)
+  int i,n;
+  printf("Enter a number:\n");
+  scanf("%d",&n);
+
+  for(i=1;n>=i;n--)
   {
-  printf("%d ",i);
+  printf("%d ",n);
   }
 getch();
 return 0;

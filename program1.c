@@ -3,13 +3,13 @@
 
 int main()
 {
-  int num;
+  int i,n;
   printf("Enter a number:\n");
-  scanf("%d",&num);
-  if(num>0)
-  printf("Number is positive");
-  else
-  printf("Number is non-positive");
-  getch();
-  return 0;
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+  printf("MysirG\n");
+  }
+getch();
+return 0;
 }

@@ -3,10 +3,12 @@
 
 int main()
 {
-  int i;
+  int i,n;
+  printf("Enter a number:\n");
+  scanf("%d",&n);
   for(i=1;i<=10;i++)
   {
-  printf("5 * %d = %d \n",i,5*i);
+  printf("%d * %d = %d \n",n,i,n*i);
   }
 getch();
 return 0;
